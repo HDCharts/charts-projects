@@ -57,3 +57,7 @@ The setup script currently knows about:
 | `charts-playground` | Playground app | [Playground](https://charts.harisdautovic.com/playground) |
 | `charts-gif-recorder` | GIF recorder | [Repository](https://github.com/hdcodedev/compose-gif-recorder) |
 | `charts-github-profile` | GitHub organization profile and defaults | [Repository](https://github.com/HDCharts/.github) |
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup and pull request guidelines.
