@@ -1,9 +1,9 @@
 # charts-projects
 
-Shared local setup for the HDCharts repositories.
+Shared local workspace for the HDCharts projects.
 
 This repository is the workspace entrypoint. Clone it first, then use the setup
-script to clone the project repositories you want to work on.
+script to clone the projects you want to work on.
 
 ## Clone Repositories
 
@@ -13,14 +13,14 @@ From this repository:
 scripts/clone-repos.sh
 ```
 
-The script asks which repositories to clone and puts them in:
+The script asks which projects to clone and puts them in:
 
 ```text
-repos/
+projects/
 ```
 
 That folder is ignored by this repository, so each project keeps its own Git
-status and changes do not show up as changes in `charts-dev-setup`.
+status and changes do not show up as changes in `charts-projects`.
 
 To clone everything without a prompt:
 

@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-DEST_DIR="$ROOT_DIR/repos"
+DEST_DIR="$ROOT_DIR/projects"
 USE_SSH=0
 CLONE_ALL=0
 LIST_ONLY=0
@@ -34,11 +34,11 @@ usage() {
   cat <<EOF
 Usage: scripts/clone-repos.sh [options]
 
-Clone selected HDCharts project repositories into ./repos.
+Clone selected HDCharts project repositories into ./projects.
 
 Options:
   --all              Clone all repositories without prompting.
-  --dest DIR         Clone repositories into DIR instead of ./repos.
+  --dest DIR         Clone repositories into DIR instead of ./projects.
   --dry-run          Print what would be cloned without cloning.
   --ssh              Use SSH clone URLs instead of HTTPS.
   --list             Print configured repositories and exit.
