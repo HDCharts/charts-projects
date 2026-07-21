@@ -52,7 +52,7 @@ The setup script currently knows about:
 
 | Repository | Purpose | Link |
 | --- | --- | --- |
-| `charts` | HDCharts core library | [Maven Central](https://central.sonatype.com/artifact/io.github.dautovicharis/charts/overview) |
+| `charts` | HDCharts core library | [Maven Central](https://central.sonatype.com/artifact/io.github.dautovicharis/charts/overview), [Demo](https://charts.harisdautovic.com/demo) |
 | `charts-docs` | Documentation site | [Documentation](https://charts.harisdautovic.com/) |
 | `charts-playground` | Playground app | [Playground](https://charts.harisdautovic.com/playground) |
 | `charts-gif-recorder` | GIF recorder | [Repository](https://github.com/hdcodedev/compose-gif-recorder) |
