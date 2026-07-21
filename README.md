@@ -1,4 +1,4 @@
-# charts-dev-setup
+# charts-projects
 
 Shared local setup for the HDCharts repositories.
 
