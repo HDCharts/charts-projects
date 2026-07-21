@@ -14,6 +14,7 @@ REPO_NAMES=(
   "charts-docs"
   "charts-playground"
   "charts-gif-recorder"
+  "charts-github-profile"
 )
 
 REPO_LABELS=(
@@ -21,6 +22,7 @@ REPO_LABELS=(
   "Documentation site"
   "Playground app"
   "GIF recorder"
+  "GitHub organization profile and defaults"
 )
 
 REPO_URLS=(
@@ -28,6 +30,7 @@ REPO_URLS=(
   "https://github.com/HDCharts/charts-docs.git"
   "https://github.com/HDCharts/charts-playground.git"
   "https://github.com/hdcodedev/compose-gif-recorder.git"
+  "https://github.com/HDCharts/.github.git"
 )
 
 usage() {
