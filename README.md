@@ -58,6 +58,28 @@ The setup script currently knows about:
 | `charts-gif-recorder` | GIF recorder | [Repository](https://github.com/hdcodedev/compose-gif-recorder) |
 | `charts-github-profile` | GitHub organization profile and defaults | [Repository](https://github.com/HDCharts/.github) |
 
+## Agent Skills
+
+Cross-repository HDCharts workflows live in `.agents/skills/` using the open
+Agent Skills `SKILL.md` format:
+
+- `hdc-pr` routes PRs for changed workspace repositories and
+  coordinates library changesets or companion PRs only when needed.
+- `hdc-rc` runs API compatibility checks and updates
+  snapshot migration notes.
+
+Open this workspace root when using these skills so the agent can access the
+sibling repositories under `projects/`.
+
+Agents that use `.agents/skills/` discover the canonical skills directly.
+Compatibility symlinks are included for Claude Code, Kilo Code, and Roo Code.
+
+To confirm that a skills.sh-compatible client can discover the skills:
+
+```bash
+npx skills add . --list
+```
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup and pull request guidelines.
